@@ -1,0 +1,33 @@
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),
+  url("images/drum.png");
+  background-size: cover;
+}
+
+
+/* row with inputs */
+.keys{
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.key{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: orange;
+  background-color: black;
+  border: solid orange 1px;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.key kbd {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
