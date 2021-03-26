@@ -19,10 +19,15 @@ body{
   flex-direction: column;
   color: orange;
   background-color: black;
-  border: solid orange 1px;
+  border: solid orange 2px;
   height: 80px;
   width: 80px;
   border-radius: 10px;
+  box-shadow: 0px 11px 0px black;
+}
+
+.active{
+  box-shadow: 0px 3px 0px black;
 }
 
 .key kbd {
