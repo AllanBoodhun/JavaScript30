@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Variable</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="wrapper container">
+      <h1>CSS variables in <span class='js'>JS</span></h1>
+      <div class="controllers">
+        <div class="control">
+          <label for="spacing">Spacing</label>
+          <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        </div>
+        <div class="control">
+          <label for="blur">Blur</label>
+          <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        </div>
+        <div class="control">
+          <label for="base">Base Color</label>
+          <input id="base" type="color" name="base" value="#ffc600">
+        </div>
+      </div>
+      <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+    </div>
+  </body>
+  <!-- ALWAYS IN THE BACK !! -->
+  <script src="js/script.js"></script>
+
+</html>
